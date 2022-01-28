@@ -1,0 +1,171 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    background: #2E3035;
+}
+.backgroundBox{
+    border: 1px solid black;
+    height : 400px;
+    background: url(https://s.imgur.com/desktop-assets/desktop-assets/homebg.e52b5cdf24f83bcd55f9f1318855f2ef.png) no-repeat;
+    background-size: cover;
+}
+.navbar{
+    height: 80px;
+    /* border: 1px solid white; */
+    color: white;
+    display: flex;
+  justify-content: space-between;
+    background-color: transparent;
+    align-items: center;
+}
+.mainLogoDiv{
+    display: flex;
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: transparent;
+}
+.rightnavbox{
+    display: flex;
+    align-items: center;
+    padding-left: 1%;
+    padding-right: 1%;
+    justify-content: space-between;
+    /* width: 600px; */
+    background-color: transparent;
+}
+#goAddFree{
+    padding: 3%;
+    width: 110px;
+    background-color: #6432F9;
+    /* border: 1px solid white; */
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+    font-weight: 900;
+}
+#signin{
+    padding: 3%;
+    width: 80px;
+    background-color: transparent;
+    /* border: 1px solid white; */
+    
+    align-items: center;
+    border-radius: 3px;
+    font-weight: 900;
+   
+}
+#signup{
+    padding: 3%;
+    width: 80px;
+    background-color: #31BE7C;
+    /* border: 1px solid white; */
+ 
+    align-items: center;
+    border-radius: 3px;
+    font-weight: 900;
+}
+.newPostouterbox{
+    padding: 3%;
+    width: 130px;
+    background-color: #31BE7C;
+    /* border: 1px solid white; */
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+}
+#searchbox{
+    /* width: 40vw;
+    padding: 1.5%;
+    color: white;
+    font-weight: 900;
+     */
+     background: hsla(0,0%,100%,.25);
+     border: 1px solid transparent;
+     padding: 8px 35px 8px 10px;
+     border-radius: 3px;
+     width: 40vw;
+     outline: 0 none;
+     opacity: .8;
+     min-height: 36px;
+     font-size: 16px;
+     font-weight: 700;
+     letter-spacing: .4px;
+     color: #fff;
+     text-shadow: inherit;
+     -webkit-text-fill-color: inherit;
+}
+.Message{
+    font-size: 24px;
+    font-weight: bolder;
+    letter-spacing: .6px;
+    color: #aed8ea;
+    text-align: center;
+    margin-top: 12px;
+    min-height: 34px;
+    position: relative;
+    background-color: transparent;
+}
+.mainmainbox{
+    background-color: transparent;
+}
+.tagsbox{
+    background-color: transparent;
+    width: 85vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.toptags{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    width: 85vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5%;
+    background-color: transparent;
+}
+
+.diffbox{
+    background-color: transparent;
+    height: 130px; 
+    width: 232px;
+}
+.diffbox1{
+    max-width: 100%;
+    height: 80px;
+    background-image: url(&quot;https://i.imgur.com/IkZeAAy_d.jpg?maxwidth=800&amp;shape=thumb&amp;fidelity=high&quot;) !important; 
+    background-size: cover;
+    color: white;
+    background-color: coral;
+    
+}
+.colortags{
+    height: 130px;
+    width: 120px;
+    border: 1px solid white;
+    color: white;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    
+}
+.innerbox1{
+    max-width: 100%;
+    height: 80px;
+    background-color: white;
+    color: white;
+}
+.innerbox2{
+   text-align: center;
+   padding: 0.9% ;
+   background-color:  #633875;
+}
+.innerbox3{
+  text-align: center ;
+  background-color:  #633875;
+}
+#parent{
+    display: flex;
+    /* justify-content: space-between; */
+    background-color: transparent;
+}
