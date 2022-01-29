@@ -65,6 +65,8 @@ function showProduct(d){
               div1.setAttribute("class", "innerbox1")  
               div1.style.backgroundImage = product.backgroundImage
               let div2 =  document.createElement("div")
+              div2.style.backgroundColor = "#633875"
+
                      let div3 = document.createElement("div")
                      div3.setAttribute("class","innerbox2")   
                      div3.innerText = product.textContaint
