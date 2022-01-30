@@ -94,6 +94,23 @@
      text-shadow: inherit;
      -webkit-text-fill-color: inherit;
 }
+#belowSearchbox{
+    display: none;
+    border: 1px solid white;
+    width: 40vw;
+    height: 40vh;
+    margin-top: 10px;
+    position: absolute;
+    z-index: 1;
+    background-color: #3C424B;
+    overflow: auto;
+}
+.name{
+    color: white;
+    /* border: 1px solid white; */
+    padding: 1%;
+    font-weight: bolder;
+}
 .Message{
     font-size: 24px;
     font-weight: bolder;
@@ -152,8 +169,9 @@
 .innerbox1{
     max-width: 100%;
     height: 80px;
-    background-color: white;
+    background-color: pink;
     color: white;
+    /* background-image: url(https://i.imgur.com/TYs43eJ_d.jpg?maxwidth=800&amp;shape=thumb&amp;fidelity=high) */
 }
 .innerbox2{
    text-align: center;
@@ -208,8 +226,8 @@
 .mainIgmurbox{
     /* border: 1px solid white; */
     width: 240px;
-    height: 240px;
-    background-color: transparent;      
+    /* height: 240px; */
+    background-color: transparent ;      
     box-shadow: 0 2px 4px 0 rgb(0 0 0 / 40%);
     background-color: #2e3035;
     transition: box-shadow .25s;
@@ -227,6 +245,8 @@
     width: 240px;
     /* height: 173px; */
     background-color: transparent;
+   
+     object-fit: contain
 }
 .downBox{
     display: flex;
@@ -235,5 +255,8 @@
     margin-right: 10%;
     padding: 3%;
     background-color: #2C2E33;
+    background-color: transparent;
+}
+#imgurScrollsparent{
     background-color: transparent;
 }
